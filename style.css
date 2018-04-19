@@ -56,7 +56,7 @@ button {
 	grid-template-columns: auto auto;
 }
 
-@media only screen and (max-device-width: 400px) {
+@media only screen and (max-device-width: 750px) {
 	#calcBody {
 		width: 100%;
 		height: 100%;
