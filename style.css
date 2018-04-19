@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+* {
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+#calcBody {
+	margin: auto;
+	margin-top: 10px;
+	width: 350px;
+	box-sizing: border-box;
+	display: grid;
+	
+	grid-template-rows: 1fr 4fr;
+	height: 200px;
+}
+
+#display {
+	background-color: lightgrey;
+	text-align: right;
+	grid-column: 1 / -1;
+	grid-template-rows: 3fr 1fr;
+}
+
+#buttons > button {
+	display: flex;
+	font-size: 2em;
+}
+
+#buttons {
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+#numbers {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto;
+}
+
+button {
+	background-color: dodgerblue;
+	color: white;
+	border-radius: 5px;
+}
+
+#operations {
+	display: grid;
+	float: right;
+	margin-left: 5px;
+
+}
+
+#clrBtns {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+@media only screen and (max-device-width: 400px) {
+	#calcBody {
+		width: 100%;
+		height: 100%;
+	}
+	* {
+		font-size: 20px;
+	}
+
+}

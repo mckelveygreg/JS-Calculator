@@ -1,0 +1,3 @@
+[submodule "string-math"]
+	path = string-math
+	url = https://github.com/devrafalko/string-math
