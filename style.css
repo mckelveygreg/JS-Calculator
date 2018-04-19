@@ -12,7 +12,7 @@
 	display: grid;
 	
 	grid-template-rows: 1fr 4fr;
-	height: 200px;
+	
 }
 
 #display {
